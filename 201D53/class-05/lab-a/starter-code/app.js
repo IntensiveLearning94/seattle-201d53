@@ -9,7 +9,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
+        var addSum = a + b;
+        var answer = 'The sum of ' + a + ' and ' + b + ' is ' + addSum + '.';
+        
+        return [addSum, answer];     
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -27,7 +30,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+    var addSum = a * b;
+    var answer = ('The product of ', + a + ' and ' + b + ' is ' + addSum);
+  
+    return [addSum, answer];
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -48,7 +54,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-
+        var addSum = sum(a,b)[0];
+        addSum = sum(addsum, c)[0];
+        var mulSum = Multiply(a,b)[0];
+        mulSum = Multiply(mulSum,c)[0];
+          var addAnswer = ('The product of ' + a + ' and ', + b + ' and ', + c + ' is ' + addSum);
+          var mulAnswer = (' The product of ', + a + ' and ', + b + ' and ', + c + ' is ' + mulSum);
+        
+          return [addAnswer, mulAnswer]
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
