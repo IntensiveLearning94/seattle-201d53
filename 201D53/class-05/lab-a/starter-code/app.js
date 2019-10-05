@@ -7,13 +7,12 @@ Write a function called sum() that takes in two numbers as arguments and then re
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
-// Write your code here
-function sum(a, b) { //eslint-disable-line
-        var addSum = a + b;
-        var answer = 'The sum of ' + a + ' and ' + b + ' is ' + addSum + '.';
-        
-        return [addSum, answer];     
-}
+// Write your code here   
+function sum(a, b){ //eslint-disable-line
+    var addSum = a + b;
+    var answer = 'The sum of ' + a + ' and ' + b + ' is ' + addSum + '.';
+    return [addSum, answer];
+  }
 
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
@@ -34,7 +33,6 @@ function multiply(a, b) { //eslint-disable-line
     var answer = ('The product of ', + a + ' and ' + b + ' is ' + addSum);
   
     return [addSum, answer];
-}
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
