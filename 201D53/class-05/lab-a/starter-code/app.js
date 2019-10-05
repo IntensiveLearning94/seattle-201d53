@@ -60,7 +60,6 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
         mulSum = Multiply(mulSum,c)[0];
           var addAnswer = ('The product of ' + a + ' and ', + b + ' and ', + c + ' is ' + addSum);
           var mulAnswer = (' The product of ', + a + ' and ', + b + ' and ', + c + ' is ' + mulSum);
-        
           return [addAnswer, mulAnswer]
 }
 
